@@ -121,11 +121,19 @@ All source files are organized under the `code/` directory by language.
 
 
 
-\## ✍️ Author
+📝 Notes
 
-\*\*Ahmad Issa\*\*  
+This project was developed as part of an academic course.
 
-Master’s Student in Computer Science  
+The code is intended for educational and research purposes only.
+
+No external datasets are required beyond those provided with the assignment.
+
+👤 Author
+
+Ahmad Issa
+Bishop’s University
+Department of Computer Science
 
 
 
