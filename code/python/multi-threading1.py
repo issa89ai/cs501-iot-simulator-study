@@ -6,7 +6,8 @@ from dev import sht11_sensor
 
 # Number of values used in averaging process
 MAX_VALUES = 4
-SUM_INTERVAL = 3  # in seconds
+SUM_INTERVAL = 3      # in seconds
+CLOCK_SECOND = 4      # matches Contiki's CLOCK_CONF_SECOND (4 ticks/sec on Tmote Sky)
 
 # Declaration of array size
 arraySize = [10, 50, 800, 170, 904]

@@ -54,7 +54,7 @@ The repository includes demo examples implemented in multiple languages:
 
 \- `hello-world.c`
 
-\- `PingPong1.c`
+- `pingpong.c`
 
 \- `power.c`
 
@@ -96,8 +96,31 @@ All source files are organized under the `code/` directory by language.
 
 \## 📂 Repository Structure
 
-
-
+```
+cs501-iot-simulator-study/
+├── code/
+│   ├── c/
+│   │   ├── hello-world.c
+│   │   ├── pingpong.c
+│   │   ├── power.c
+│   │   └── multi-threading-PlusRandom.c
+│   ├── python/
+│   │   ├── hello-world1.py
+│   │   ├── pingpong1.py
+│   │   ├── power1.py
+│   │   └── multi-threading1.py
+│   └── csc/
+│       ├── hello-world1.csc
+│       ├── pingpong1.csc
+│       ├── power1.csc
+│       └── multi-threading1.csc
+├── report/
+│   └── CS501_Final_Project_Report_Group_FPP.pdf
+├── presentation/
+│   └── Final_Project_IoT_Group_FPP.pptx
+└── references/
+    └── references.txt
+```
 
 
 
@@ -107,13 +130,13 @@ All source files are organized under the `code/` directory by language.
 
 \## 📎 Included Deliverables
 
-\- 📄 Final Report (PDF): `report/CS501\_Final\_Project\_Report\_Group\_FPP.pdf`  
+\- 📄 Final Report (PDF): `report/CS501_Final_Project_Report_Group_FPP.pdf`  
 
-\- 📊 Slides (PPTX): `presentation/Final\_Project\_IoT\_Group\_FPP.pptx`  
+- 📊 Slides (PPTX): `presentation/Final_Project_IoT_Group_FPP.pptx`  
 
-\- 💻 Demo code: `code/`  
+- 💻 Demo code: `code/`  
 
-\- 📚 References: `references/refrences.txt`  
+- 📚 References: `references/references.txt`  
 
 
 
@@ -121,7 +144,7 @@ All source files are organized under the `code/` directory by language.
 
 
 
-📝 Notes
+## 📝 Notes
 
 This project was developed as part of an academic course.
 
@@ -129,10 +152,10 @@ The code is intended for educational and research purposes only.
 
 No external datasets are required beyond those provided with the assignment.
 
-👤 Author
+## 👤 Author
 
-Ahmad Issa
-Bishop’s University
+**Ahmad Issa**  
+Bishop’s University  
 Department of Computer Science
 
 

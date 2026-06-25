@@ -58,7 +58,8 @@ PROCESS_THREAD(randomNumbers_process, ev, data) {
 			PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&timer));
 
 			n=arraySize[j]; /* Setting array size */
-			int arrayRand[n]; /* create an array of random numbers with a size ??*/
+			randSum = 0; /* Reset sum for each new array */
+			int arrayRand[n]; /* create an array of random numbers with a size n */
 
 				  for(i=0; i<n; i++){
 				   arrayRand[i] = random_rand()%20000;

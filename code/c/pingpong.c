@@ -65,8 +65,9 @@ PROCESS_THREAD(pingpong, ev, data) {
         PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 
         last_timestamp = clock_time(); // Use clock_time() from Contiki
+        // Pack timestamp into buffer and broadcast — only one copyfrom call
+        // (a second call would overwrite the buffer, losing the timestamp)
         packetbuf_copyfrom(&last_timestamp, sizeof(clock_time_t));
-        packetbuf_copyfrom("Pong", 5);
         broadcast_send(&broadcast);
         printf("Ping\n");
     }
