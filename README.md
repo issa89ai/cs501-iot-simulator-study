@@ -155,23 +155,11 @@ No external datasets are required beyond those provided with the assignment.
 ## 👤 Author
 
 **Ahmad Issa**  
-Bishop’s University  
-Department of Computer Science
+Machine Learning Engineer | AI & Data Science
 
 ---
 
-**Ahmad Issa**  
-Machine Learning Engineer | AI & Data Science  
-Bishop's University  
-Student ID: 002230777
-
-
-
----
-
-
-
-\## 📜 License
+## 📜 License
 
 This repository is shared for academic and educational purposes.
 
