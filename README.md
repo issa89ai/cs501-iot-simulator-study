@@ -1,100 +1,55 @@
-\# CS501 – Study of an IoT Simulator
+# CS501 – Study of an IoT Simulator
 
+## 📘 Course Information
 
-
-\## 📘 Course Information
-
-\- \*\*Course:\*\* CS501 – The Internet of Things  
-
-\- \*\*Term:\*\* Winter 2024  
-
-\- \*\*Project Type:\*\* Final Project  
-
-\- \*\*Topic:\*\* Study and comparison of an IoT simulator  
-
-
+- **Course:** CS501 – The Internet of Things  
+- **Term:** Winter 2024  
+- **Project Type:** Final Project  
+- **Topic:** Study and comparison of an IoT simulator  
 
 ---
 
+## 📌 Project Description
 
+This project presents a **comparative study of an open-source IoT simulator** different from Cooja.  
+The study investigates and compares the simulator with **Cooja Simulator** based on:
 
-\## 📌 Project Description
-
-This project presents a \*\*comparative study of an open-source IoT simulator\*\* different from Cooja.  
-
-The study investigates and compares the simulator with \*\*Cooja Simulator\*\* based on:
-
-
-
-\- Supported operating systems  
-
-\- Supported programming language(s)  
-
-\- Available motes and their roles  
-
-\- Advantages and shortcomings compared to Cooja  
-
-\- Demo examples that demonstrate code execution on motes (with results/screenshots in the report)  
-
-\- Conclusions and references  
-
-
+- Supported operating systems  
+- Supported programming language(s)  
+- Available motes and their roles  
+- Advantages and shortcomings compared to Cooja  
+- Demo examples that demonstrate code execution on motes (with results/screenshots in the report)  
+- Conclusions and references  
 
 ---
 
-
-
-\## 🧪 Demo Programs
+## 🧪 Demo Programs
 
 The repository includes demo examples implemented in multiple languages:
 
-
-
-\### 🔹 C Programs
-
-\- `hello-world.c`
-
+### 🔹 C Programs
+- `hello-world.c`
 - `pingpong.c`
+- `power.c`
+- `multi-threading-PlusRandom.c`
 
-\- `power.c`
+### 🔹 Python Programs
+- `hello-world1.py`
+- `pingpong1.py`
+- `power1.py`
+- `multi-threading1.py`
 
-\- `multi-threading-PlusRandom.c`
-
-
-
-\### 🔹 Python Programs
-
-\- `hello-world1.py`
-
-\- `pingpong1.py`
-
-\- `power1.py`
-
-\- `multi-threading1.py`
-
-
-
-\### 🔹 CSC Scripts
-
-\- `hello-world1.csc`
-
-\- `pingpong1.csc`
-
-\- `power1.csc`
-
-\- `multi-threading1.csc`
-
-
+### 🔹 CSC Scripts
+- `hello-world1.csc`
+- `pingpong1.csc`
+- `power1.csc`
+- `multi-threading1.csc`
 
 All source files are organized under the `code/` directory by language.
 
-
-
 ---
 
-
-
-\## 📂 Repository Structure
+## 📂 Repository Structure
 
 ```
 cs501-iot-simulator-study/
@@ -115,42 +70,30 @@ cs501-iot-simulator-study/
 │       ├── power1.csc
 │       └── multi-threading1.csc
 ├── report/
-│   └── CS501_Final_Project_Report_Group_FPP.pdf
+│   └── CS501 Final Project Report group FPP.pdf
 ├── presentation/
-│   └── Final_Project_IoT_Group_FPP.pptx
+│   └── Final project IoT group FPP.pptx
 └── references/
     └── references.txt
 ```
 
-
-
 ---
 
+## 📎 Included Deliverables
 
-
-\## 📎 Included Deliverables
-
-\- 📄 Final Report (PDF): `report/CS501_Final_Project_Report_Group_FPP.pdf`  
-
-- 📊 Slides (PPTX): `presentation/Final_Project_IoT_Group_FPP.pptx`  
-
+- 📄 Final Report (PDF): `report/`  
+- 📊 Slides (PPTX): `presentation/`  
 - 💻 Demo code: `code/`  
-
 - 📚 References: `references/references.txt`  
 
-
-
 ---
-
-
 
 ## 📝 Notes
 
-This project was developed as part of an academic course.
-
+This project was developed as part of an academic course.  
 The code is intended for educational and research purposes only.
 
-No external datasets are required beyond those provided with the assignment.
+---
 
 ## 👤 Author
 
