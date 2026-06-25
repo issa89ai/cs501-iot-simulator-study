@@ -161,7 +161,7 @@ Department of Computer Science
 ---
 
 **Ahmad Issa**  
-Master's Student in Computer Science  
+Machine Learning Engineer | AI & Data Science  
 Bishop's University  
 Student ID: 002230777
 
