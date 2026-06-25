@@ -155,13 +155,5 @@ No external datasets are required beyond those provided with the assignment.
 ## 👤 Author
 
 **Ahmad Issa**  
-Machine Learning Engineer | AI & Data Science
-
----
-
-## 📜 License
-
-This repository is shared for academic and educational purposes.
-
-
-
+Machine Learning Engineer | AI & Data Science  
+[GitHub](https://github.com/issa89ai) · [LinkedIn](https://linkedin.com/in/ahmadissa)
